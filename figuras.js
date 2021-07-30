@@ -3,7 +3,7 @@ console.group("cuadrados");
 //const ladoCuadrado = 5;
 //console.log("Los lados de cuadrados miden:" + ladoCuadrado + "cm");
 
-function periCuadrado(lado) {
+function perimetroCuadrado(lado) {
     return lado * 4;
 }
 
@@ -63,12 +63,12 @@ console.group("circulos");
 //const diametroCirculo = radioCirculo * 2;
 //console.log("El diámetro del circulo es:" + diametroCirculo + "cm");
 function diametroCirculo(radio) {
-    radio * 2;
+   return radio * 2;
 }
 
 // PI
 const PI = Math.PI;
-//console.log("El PI del circulo es:" + PI);
+console.log("El PI del circulo es:" + PI);
 
 // Circunferencia
 //const perimetroCirculo = diametroCirculo * PI;

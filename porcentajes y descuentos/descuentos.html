@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d16a39c67a.js" crossorigin="anonymous"></script>
+    <script src="descuentos.js"></script>
+    <title>Descuentos</title>
+</head>
+<body>
+    <header>
+        <h1 class="topic"> <i class="fas fa-percent"></i> Porcentajes y Descuentos <i class="fas fa-tags"></i></h1> 
+    </header>
+   <section>
+       <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+       <form action="">
+          <!--inicio input de precio-->
+           <label for="InputPrice">Precio Articulo</label>
+           <div>
+            <input type="number" placeholder="Precio ..." id="InputPrice">
+           </div>
+           <!--fin input de precio-->
+
+           <!--inicio input de descuento-->
+           <label for="InputDiscount">Descuento articulo</label>
+           <div>
+            <input type="number" placeholder="Descuento ..." id="InputDiscount">
+           </div>
+           <!--fin input de descuento-->
+           <button type="button" onclick="onclickButtonPriceDiscount()">
+            Calcular descuento
+           </button>
+           <p id="ResultP">
+
+           </p>
+         </form>
+   </section>
+    
+</body>
+</html>
